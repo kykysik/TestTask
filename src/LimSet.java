@@ -56,7 +56,7 @@ public class LimSet<E> implements LimitedSet<E> {
 
     @Override
     public String toString() {
-        return "src.LimSet" + map.keySet();
+        return "LimSet" + map.keySet();
     }
 
     private void deleteKeyWithMinValue() {
